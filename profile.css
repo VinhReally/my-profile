@@ -3,29 +3,42 @@
     src: url('UTM Bebas.ttf');
 }
 fieldset {
-    border: 2px solid #000000;
+    border: 2px solid #01579B;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: rgb(163, 222, 242);
+    background-color: #E1F5FE;
     max-width: 100%; 
     box-sizing: border-box;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+fieldset:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 legend {
+    color: #ffffff
     font-family: 'Bebas', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
     border: 2px solid black;
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: rgb(18, 171, 222);
+    background-color: #0091EA;
 }
 
 .profile-info-cell {
+    color: #263238
     font-family: 'Roboto', sans-serif;
     font-size: large;
     line-height: 1.5;
+}
+
+.profile-details strong {
+    color: #01579B;
 }
 
 table {
@@ -72,6 +85,7 @@ img {
         margin: 0 auto;
     }
 }
+
 
 
 
