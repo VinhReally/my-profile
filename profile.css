@@ -23,18 +23,18 @@ fieldset{
 }
 
 @media (max-width: 600px) {
-  fieldset { 
-    width: 95% !important; 
-    flex-direction: column;
-    padding: 10px;
-  }
+    table, tr, td {
+        display: block;
+        width: 100% !important;
+    }
 
-  .profile-picture {
-    max-width: 100%;
-    height: auto;
-  }
+    td {
+        text-align: center; 
+    }
     
-  p {
-    font-size: 20px;
-  }
+    .profile-picture {
+        margin: 0 auto;
+        display: block;
+    }
 }
+
