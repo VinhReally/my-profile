@@ -30,7 +30,7 @@ legend {
     background-color: #0091EA;
 }
 
-.profile-info-cell.info-table tr td {
+.profile-info-cell .info-table tr td {
     color: #263238 !important;
     font-family: 'Roboto', sans-serif !important;
     font-size: large;
@@ -87,6 +87,7 @@ img {
         margin: 0 auto;
     }
 }
+
 
 
 
